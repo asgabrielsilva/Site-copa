@@ -1,0 +1,57 @@
+@charset "UTF-8" ;
+
+body{
+    color: white;
+}
+h1{
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+.logo_header {
+    font-family: cursive;
+    
+    font-size: 2em;
+}
+.header,
+.navigation_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3.5em;
+}
+
+.navigation_header {
+    gap: 2em;
+}
+.navigation_header a {
+    
+    text-decoration: none;
+}
+.header {
+    justify-content: space-between;
+    padding: 0 2%;
+    background-color: green;
+}
+.all{
+    margin-top: 35px;
+}
+.flex{
+    display: flex;
+    width: 50%;
+    background-color: beige;
+    padding: 10px;
+}
+.img{
+    max-width: 137px;
+    width: 100%;
+}
+.text{
+    margin-left: 10px;
+    width: 100%;
+}
+.text h2{
+    color: black;
+    font-size: 1.25em;
+    margin-top: 5px;
+}
